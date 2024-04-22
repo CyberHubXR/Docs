@@ -21,4 +21,4 @@ You may restrict the grabbable to only be grabbable by a certain hand by setting
 To network the object add a @"Foundry.Networking.NetworkObject" and @"Foundry.Networking.NetworkTransform" to the same game object as the grabbable script.
 
 ## Examples
-[Interactable Grabbable Example](~/Manual/GettingStarted/Samples/Interactables/InteractableGrabbableExample.md)
+[Interactable Grabbable Example](docs/foundry-core/samples/interactables/InteractableGrabbableExample.md)
