@@ -1,8 +1,0 @@
-{
-  "label": "Foundry Doc Gen",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "The Foundry Doc Gen SDK docs."
-  }
-}
