@@ -28,3 +28,21 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.homepage-link-container {
+  margin: 0 1rem;
+  border-radius: 7px;
+  padding: 1rem;
+  background-color: var(--docusaurus-highlighted-code-line-bg);
+}
+
+.homempage-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  border-radius: 7px;
+  padding: 1rem;
+ 
+}
