@@ -1,6 +1,6 @@
 # SpatialLever
 
-![SpatialLever](./img/SpatialLeverScript.png)
+![SpatialLever](./img/spatialLeverScript.png)
 
 ## Description
 A networked lever implementation, using the foundry touch point system. 
