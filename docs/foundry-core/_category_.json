@@ -1,0 +1,8 @@
+{
+  "label": "Foundry Core",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "The Foundry core SDK docs."
+  }
+}
