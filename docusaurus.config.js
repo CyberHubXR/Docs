@@ -84,7 +84,7 @@ const config = {
             items: [
               {
                 label: 'Foundry Core Docs',
-                to: '/docs/category/foundry-core',
+                to: '/docs/category/foundry',
               },
             ],
           },

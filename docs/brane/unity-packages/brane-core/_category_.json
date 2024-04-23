@@ -1,0 +1,8 @@
+{
+  "label": "Brane Core",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "Provides utilities for package setup and management, as well as common configuration data for other packages."
+  }
+}

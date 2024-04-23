@@ -6,12 +6,12 @@ export default function HomepageFeatures() {
   return <div className="homempage-links">
       <div className="homepage-link-container">
         <Heading as="h2">
-          <a href="/docs/category/foundry-core">Brane Core</a>
+          <a href="/docs/category/foundry">Brane Core</a>
         </Heading>
       </div>
       <div className="homepage-link-container">
         <Heading as="h2">
-          <a href="/docs/category/foundry-core">Foundry</a>
+          <a href="/docs/category/foundry">Foundry</a>
         </Heading>
       </div>
     </div>
