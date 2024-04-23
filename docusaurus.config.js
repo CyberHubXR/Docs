@@ -70,7 +70,7 @@ const config = {
           },
           {to: 'https://cyberhubxr.com/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/cyberhubxr',
+            href: 'https://github.com/cyberhubxr/Docs/',
             label: 'GitHub',
             position: 'right',
           },
