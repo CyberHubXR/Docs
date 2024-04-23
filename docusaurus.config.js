@@ -42,9 +42,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,7 +68,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://cyberhubxr.com/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/cyberhubxr',
             label: 'GitHub',
@@ -108,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://cyberhubxr.com/blog',
               },
               {
                 label: 'GitHub',
