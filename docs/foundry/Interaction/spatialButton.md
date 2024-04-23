@@ -21,4 +21,4 @@ You can also directly query the `ButtonPressValue` property to see how much the 
 This script becomes networked in the presence of a NetworkObject component on the same object or on a parent, events will also be sent over the network.
 
 ## Examples
-[Button Gadget](docs/foundry/samples/interactables/gadgets/button.md)
+[Button Gadget](docs/foundry/samples/gadgets/button.md)
