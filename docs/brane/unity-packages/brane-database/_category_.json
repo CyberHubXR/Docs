@@ -1,0 +1,8 @@
+{
+  "label": "Brane Database",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Provides an easy route for interacting with database services."
+  }
+}
