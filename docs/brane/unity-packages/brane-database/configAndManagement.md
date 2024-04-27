@@ -1,0 +1,44 @@
+---
+sidebar_position: 2
+---
+# Configuration And Management
+
+All of the configuration and management of the Brane Database package is done through the Database Management Window, which can be accessed by navigating to `Brane -> Database -> Manager` in the Unity Editor.
+
+![Opening The Database Manager](img/databaseWindowPath.png)
+
+## Logging In
+    
+When you first open the Database Manager, you will be prompted to log in. You should have been given login info for an admin account at the same time we gave you an App Key that can be used for this.
+
+![Login Prompt](img/loginPrompt.png)
+
+If you want other members of your team to be able to access the Database Manager, you can request for them to use the Create Account tab to create their own account, which you can then grant the appropriate roles to with the aforementioned default admin account.
+
+## Defs
+
+The Defs tab is where you define the properties of your database. This includes User Properties, Roles, and Permissions.
+
+![Defs Window](./img/databaseManagerDefWindow.png)
+
+### Roles
+
+Roles are used to define what a user can do, and to assign labels. 
+
+[Read more about roles here](userRoles.md)
+
+### User Properties
+
+User properties are key-value pairs that can be associated with a user. They can be used to store any kind of data that you want to associate with a user, such as preferences, settings, achievements, progress, etc.
+
+[Read more about user properties here](./userProperties.md)
+
+## Users 
+
+The Users tab is where you can manage the users of your application.
+
+![Users Tab](img/usersTab.png)
+
+## Account
+
+The Account tab is where you can manage your account settings. This is also where you can change your password and log out of the Database Manager. 

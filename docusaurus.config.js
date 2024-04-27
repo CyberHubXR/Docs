@@ -120,6 +120,11 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['csharp']
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
       },
     }),
 };
