@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Welcome to the Cyber (Documentation) Hub!
 
-This is where to go to get first party info on any of our products, including Brane and Foundry.
+This is where to go to get first party info on any of our products, including Foundry Templates, Multiplayer, and User Database.
 
 ## What is Brane?
 Brane is an umbrella term for our backend services, including data storage, user management, realtime networking, content delivery, and more.
