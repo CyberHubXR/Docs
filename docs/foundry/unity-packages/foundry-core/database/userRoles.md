@@ -4,13 +4,13 @@ sidebar_position: 3
 
 # User Roles
 
-At the core of the Brane Database API is a simple role-based permission system. You define both the roles, and what those roles can do (WIP).
+At the core of the Database API is a simple role-based permission system. You define both the roles, and what those roles can do (WIP).
 
 One of the main things you should take into consideration is how your app is deployed. If you have a standalone server build of your game, permissions become much easier to manage, since it allows you to create a "server user" that has full access to the database, and then create "client users" that have limited read-only access to most data.
 
 ## Defining Roles
 
-Roles can be defined in the Defs tab of the Database Manager window found at `Brane -> Database -> Manager`.
+Roles can be defined in the Defs tab of the Database Manager window found at `Foundry -> Database -> Manager`.
 
 ![Defs Window](./img/databaseManagerDefWindow.png)
 

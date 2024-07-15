@@ -8,7 +8,7 @@ User properties are key-value pairs that can be associated with a user. They can
 
 ## Defining User Properties
 
-User can be defined in the Defs tab of the Database Manager window found at `Brane -> Database -> Manager`. 
+User can be defined in the Defs tab of the Database Manager window found at `Foundry -> Database -> Manager`. 
 
 ![Defs Window](./img/databaseManagerDefWindow.png)
 

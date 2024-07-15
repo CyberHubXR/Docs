@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Info on managing and interacting with brane database servers"
+    "description": "Info on managing and interacting with database servers"
   }
 }

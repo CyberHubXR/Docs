@@ -1,7 +1,7 @@
 
 # The ApiResult Class
 
-The `ApiResult` class is a generic class we use rather often in the Brane Database package. It is a wrapper around the response from the Brane Database server, and provides a was to check if the request was successful, process error messages and to get the data from the response.
+The `ApiResult` class is a wrapper around responses from the Database server, and it provides a way to check if the request was successful, process error messages and to get the data from the response.
 
 ## Properties
 

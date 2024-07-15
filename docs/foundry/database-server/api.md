@@ -1,10 +1,10 @@
 # REST API
 
-The Brane database server works through a REST API. This API is used by both the Unity package and the website template we provide. We also support custom clients and integrations, thus why we provide this documentation.
+The database server works through a REST API. This API is used by both the Unity package and the website template we provide. We also support custom clients and integrations, thus why we provide this documentation.
 
 ## Handling Errors
 
-All responses from the Brane database server are in JSON format. If an error occurs, the response will be in the following format:
+All responses from the database server are in JSON format. If an error occurs, the response will be in the following format:
 
 ```json
 {
@@ -25,7 +25,7 @@ All responses from the Brane database server are in JSON format. If an error occ
 
 ## Authentication
 
-The Brane database server uses a token-based authentication system. This means that you need to provide a valid bearer token in the `Authorization` header of your requests. The token is generated when you create a new user account.
+The database server uses a token-based authentication system. This means that you need to provide a valid bearer token in the `Authorization` header of your requests. The token is generated when you create a new user account.
 
 ### Signup 
 

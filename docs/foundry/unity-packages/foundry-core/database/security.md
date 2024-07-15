@@ -3,11 +3,11 @@ sidebar_position: 1
 ---
 # Security Best Practices
 
-The Brane Database API is built in such a way that it's super fast and easy to set up, but that comes with some risks, since you may open accidentally footgun yourself in a couple ways. Here are some things to keep in mind when using and configuring your Database.
+The Database API is built in such a way that it's super easy to set up, but that comes with some risks, since you may open accidentally footgun yourself in a couple ways. Here are some things to keep in mind when using and configuring your Database.
 
 ## Roles and Permissions
 
-The Brane Database API is built with a simple role-based permission system. You define both the roles, and what those roles can do.
+The Database API is built with a simple role-based permission system. You define both the roles, and what those roles can do.
 
 One of the main things you should take into consideration is how your app is deployed. If you have a standalone server build of your game, permissions become much easier to manage, since it allows you to create a "server user" that has full access to the database, and then create "client users" that have limited read-only access to most data. 
 

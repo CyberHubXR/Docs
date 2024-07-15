@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Configuration And Management
 
-All of the configuration and management of the Brane Database package is done through the Database Management Window, which can be accessed by navigating to `Brane -> Database -> Manager` in the Unity Editor.
+All of the configuration and management of the Foundry Database is done through the Database Management Window, which can be accessed by navigating to `Foundry -> Database -> Manager` in the Unity Editor.
 
 ![Opening The Database Manager](img/databaseWindowPath.png)
 
