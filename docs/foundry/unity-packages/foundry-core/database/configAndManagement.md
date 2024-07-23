@@ -15,6 +15,8 @@ When you first open the Database Manager, you will be prompted to log in. You sh
 
 If you want other members of your team to be able to access the Database Manager, you can request for them to use the Create Account tab to create their own account, which you can then grant the appropriate roles to with the aforementioned default admin account.
 
+To reset your password, click `Forgot Password?` to open a new tab that will prompt you to enter your email. You will be sent an email with a reset code that you can then enter along with your new password.
+
 ## Defs
 
 The Defs tab is where you define the properties of your database. This includes User Properties, Roles, and Permissions.
@@ -41,4 +43,12 @@ The Users tab is where you can manage the users of your application.
 
 ## Account
 
-The Account tab is where you can manage your account settings. This is also where you can change your password and log out of the Database Manager. 
+The Account tab is where you can manage your account settings. This is also where you can change your password and log out of the Database Manager.
+
+## General
+
+The General tab is where you can chenge the general settings of your application and the database.
+
+For admins, this includes the `Reset Email Template Editor` that allows you to customize the password reset emails with your application's branding. There are included `Wild Cards` that will be replaced with their corresponding value when the email is sent.
+
+![General Tab](img/generalTab.png)

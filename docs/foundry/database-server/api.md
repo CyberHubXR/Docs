@@ -175,7 +175,51 @@ Authorization Bearer <session_token>
 ```
 
 ### Forgot Password
-`// TODO`
+This sends an email containing a reset code to be sent to the registered user with the passed in email address.
+
+#### Endpoint
+```http
+POST /auth/reset
+```
+
+#### Request Body
+```json
+{
+  "email": string, // The email address of the user
+  "app_key": string, // The app key of the application
+}
+```
+
+#### Response
+```json
+{
+  "message": string, // A message indicating the result of the operation
+}
+```
+
+### Reset Password
+This resets the password of a user to the passed in value, if the reset code matches the one given to them in the email.
+
+#### Endpoint
+```http
+POST /auth/reset_code
+```
+
+#### Request Body
+```json
+{
+  "reset_code": string, // The reset code given to the user in the email
+  "new_password": string, // The new password of the user
+  "app_key": string, // The app key of the application
+}
+```
+
+#### Response
+```json
+{
+  "message": string, // A message indicating the result of the operation
+}
+```
 
 ### Verify Email
 `// TODO`
@@ -549,5 +593,34 @@ Authorization Bearer <session_token>
       "get_roles": [ string ], // An array of roles that can access this property
       "set_roles": [ string ] // An array of roles that can set this property (will not be defined if the user does not have permission to set the property)
   }
+}
+```
+### Update Reset Email
+
+Used to set and delete the reset email template of the application. Can only be done by admins and must be valid HTML with no scripts.
+
+There are included `Wild Cards` that will be replaced with their corresponding value when the email is sent, these can be found [here](docs\foundry\unity-packages\foundry-core\database\configAndManagement.md#general).
+
+#### Endpoint
+```http
+PUT /user/props/update_reset
+```
+
+#### Headers
+```http
+Authorization Bearer <session_token>
+```
+
+#### Request Body
+```json
+{
+  "reset_email": string, // The HTML for the reset email template in the form of a string.
+}
+```
+
+#### Response
+```json
+{
+  "message": string, // A message indicating the result of the operation
 }
 ```
