@@ -221,9 +221,6 @@ POST /auth/reset_code
 }
 ```
 
-### Verify Email
-`// TODO`
-
 ## User
 
 These endpoints are used to interact with users
