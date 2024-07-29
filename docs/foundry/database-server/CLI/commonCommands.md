@@ -30,3 +30,13 @@ The `show` command is used to show the details of a specific entity. It will pri
 ### `roles`
 
 The `roles` command is used to manage the roles of a user. You can add or remove roles from a user with this command. You can also list all of the roles that a user has.
+
+### `reset`
+
+The `reset` command is used to reset a user's password. You can request a reset code, and enter that reset code with the new password to successfully reset it.
+
+### `update`
+
+The `update` command is used to update the reset email HTML template that is sent out to users when a reset code is requested. This allows for each application to include their own branding within these emails.
+
+Note: There must be no double quotations within the passed in HTML string, and the string must be surrounded in double quotes.
